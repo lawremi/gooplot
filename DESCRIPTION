@@ -1,0 +1,15 @@
+Package: gooplot
+Version: 0.0.1
+Title: Grammatical Object-Oriented Plots
+Description: Provides an object-oriented abstraction based on the
+             Grammar of Graphics and implements the API using ggplot2.
+             While the entire API is object-oriented, the term applies
+             particularly to the support of arbitrary, abstract data
+             types, which are not necessarily data frames and are not
+             necessarily stored in memory.
+Author: Michael Lawrence, NextGuy WhoWantsToHelp
+Maintainer: Michael Lawrence <michafla@gene.com>
+Depends: methods, BiocGenerics
+Imports: grid, grDevices, graphics, stats, utils, ggplot2,
+         gtable, S4Vectors
+License: Artistic 2.0
